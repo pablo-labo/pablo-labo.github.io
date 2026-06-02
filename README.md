@@ -13,7 +13,7 @@ Research interests:
 
 ## Built With
 
-This site is built on the [academicpages](https://github.com/academicpages/academicpages.github.io) Jekyll theme, adapted from a personalized fork by [Guanting Dong](https://github.com/dongguanting/dongguanting.github.io).
+Jekyll · GitHub Pages.
 
 ## Local Preview
 

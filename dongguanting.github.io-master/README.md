@@ -1,1 +1,0 @@
-Guanting Dong's homepage!

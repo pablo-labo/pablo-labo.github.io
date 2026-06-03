@@ -51,16 +51,16 @@ My research sits at the intersection of **systems and machine learning**, with a
 ### **G-FAST** — Freshness-Aware Speculative Decoding for Real-Time Edge Inference
 *Group collaboration · in submission, SIGMETRICS / INFOCOM 2026 · 01/2026 — 04/2026*
 
-- Contributed to **early-stage literature review** bridging Age of Information (AoI) and speculative decoding scheduling; helped articulate the "Stale Compute" problem framing.
-- **Reproduced the GoodSpeed throughput-optimal baseline** used as the principal comparison in G-FAST experiments; assisted with simulation setup and figure generation.
-- Joined design discussions on the **Timely Goodput** metric and the shape of the freshness-efficiency function $\Phi(\Delta)$, as well as the trade-offs of the **LIFO-and-Drop** pipeline vs FIFO.
+- Reviewed Age of Information (AoI) literature to connect it with speculative decoding scheduling, helping frame the "Stale Compute" problem.
+- Reproduced the **GoodSpeed throughput-optimal baseline** for G-FAST comparisons; supported simulation setup and result visualization.
+- Contributed to the design of the **Timely Goodput** metric, including the shape of the freshness-efficiency function $\Phi(\Delta)$ and the trade-off between **LIFO-and-Drop** and FIFO.
 
 ### **SpecDiff** — Cloud-Edge Speculative Decoding with Diffusion Drafters
 *Collaboration with a PhD researcher · 11/2025 — Present*
 
-- Co-designed a cloud-edge LLM inference architecture: edge devices use a **diffusion-model drafter** $Q_i$ to generate $K$ candidate sequences; the cloud verifier processes only the selected best draft, reducing communication overhead.
-- Implemented **gradient-based distributed scheduling** that dynamically manages per-client draft length $S_i(t)$ and best-of-$K$ parameter $K_i(t)$; built an online estimator that updates effective acceptance rate $\alpha^i(t)$ via exponential smoothing.
-- Simulated multi-client allocation under different cloud verifier budgets $C$, analyzing proportional fairness vs aggregate log-utility trade-offs.
+- Co-designed a cloud-edge LLM inference architecture: edge devices use a **diffusion-model drafter** $Q_i$ to generate $K$ candidate sequences, while the cloud verifier processes only the selected best draft, reducing communication overhead.
+- Implemented **gradient-based distributed scheduling** that dynamically manages per-client draft length $S_i(t)$ and best-of-$K$ parameter $K_i(t)$; built an online estimator that updates effective acceptance rate $\alpha^i(t)$ via exponential smoothing and tracks throughput $X_i(t)$.
+- Simulated multi-client resource allocation under different cloud verifier budgets $C$, analyzing proportional fairness and aggregate log-utility trade-offs.
 
 
 <span class='anchor' id='selected-projects'></span>

@@ -22,8 +22,9 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 
 # Site Author
 author:
-  name             : "Rongbang Cheng<br>程荣邦"
-  avatar           : "profile.jpg"
+  name             : "Rongbang Cheng"
+  name_zh          : "程荣邦"
+  avatar           : "/profile.jpg"
   bio              : "M.S. in Computer Science @ University of Sydney"
   bio_zh           : "悉尼大学计算机科学硕士在读"
   location         : "Sydney, Australia"

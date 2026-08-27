@@ -320,3 +320,32 @@ b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a,
   -webkit-transition: $global-transition;
   transition: $global-transition;
 }
+
+/* ==========================================================================
+   Chinese (zh) typography — serif (Songti/SimSun)
+   ========================================================================== */
+body.lang-zh {
+  font-family: "Songti SC", "SimSun", "Noto Serif CJK SC", "Source Han Serif SC", "STSong", serif;
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: inherit;
+  }
+
+  .page__content {
+    font-size: 1.06em;
+    line-height: 1.85;
+
+    h1, h2, h3, h4, h5, h6 {
+      line-height: 1.4;
+    }
+
+    code {
+      font-family: $monospace;
+      font-size: 0.92em;
+    }
+  }
+
+  .author__name {
+    line-height: 1.5;
+  }
+}

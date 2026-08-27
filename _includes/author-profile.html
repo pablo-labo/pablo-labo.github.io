@@ -9,7 +9,7 @@
   </div>
 
   <div class="author__content">
-    <h3 class="author__name">{{ author.name }}</h3>
+    <h3 class="author__name">{{ author.name }}{% if author.name_zh %}<br>{{ author.name_zh }}{% endif %}</h3>
     {% if page.lang == 'zh' and author.bio_zh %}
       <p class="author__bio">{{ author.bio_zh }}</p>
     {% elsif author.bio %}

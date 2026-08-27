@@ -249,6 +249,24 @@
     }
   }
 
+  .lang-switch {
+    a {
+      border: 1px solid $light-gray;
+      border-radius: $border-radius;
+      padding-top: 0.2rem;
+      padding-bottom: 0.2rem;
+      padding-left: 0.6rem;
+      padding-right: 0.6rem;
+      margin-top: 0.2rem;
+      margin-bottom: 0.2rem;
+      font-weight: normal;
+
+      &:before {
+        display: none;
+      }
+    }
+  }
+
   .hidden-links {
     position: absolute;
     top: 100%;

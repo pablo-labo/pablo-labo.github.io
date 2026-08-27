@@ -9,6 +9,7 @@
 title                    : "Rongbang Cheng"
 description              : "Speculative Decoding; LLM Inference Scheduling; Edge AI"
 repository               : "pablo-labo/pablo-labo.github.io"
+url                      : "https://pablo-labo.github.io"
 google_scholar_stats_use_cdn : true
 
 # google analytics
@@ -24,7 +25,9 @@ author:
   name             : "Rongbang Cheng<br>程荣邦"
   avatar           : "profile.jpg"
   bio              : "M.S. in Computer Science @ University of Sydney"
+  bio_zh           : "悉尼大学计算机科学硕士在读"
   location         : "Sydney, Australia"
+  location_zh      : "澳大利亚 · 悉尼"
   employer         : "University of Sydney"
   pubmed           :
   googlescholar    :

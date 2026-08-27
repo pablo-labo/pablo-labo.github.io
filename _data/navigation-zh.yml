@@ -1,0 +1,25 @@
+# main links links
+main:
+  - title: "关于我"
+    url: "/#about-me"
+
+  - title: "新闻"
+    url: "/#news"
+
+  - title: "教育背景"
+    url: "/#education"
+
+  - title: "研究经历"
+    url: "/#research-experience"
+
+  - title: "项目"
+    url: "/#selected-projects"
+
+  - title: "奖项"
+    url: "/#honors-awards"
+
+  - title: "技能"
+    url: "/#skills"
+
+  - title: "联系方式"
+    url: "/#contact"
